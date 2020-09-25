@@ -34,6 +34,9 @@ namespace API.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Size")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Tag")
                         .HasColumnType("nvarchar(max)");
 

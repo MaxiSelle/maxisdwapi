@@ -17,8 +17,6 @@ namespace API
             public DbSet<ClothingItem> ClothingItems { get; set; }
 
             public DbSet<Picture> Pictures { get; set; }
-
-
-            
+          
         }
     }

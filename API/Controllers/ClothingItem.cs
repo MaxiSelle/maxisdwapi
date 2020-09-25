@@ -12,6 +12,8 @@ namespace API.Controllers
         public string Name { get; set; }
         public string Tag { get; set; }
         public int ClothingItemId { get; set; }
+        public string Size { get; set; }
+
 
         public List<Picture> Pictures { get; set; }
 
