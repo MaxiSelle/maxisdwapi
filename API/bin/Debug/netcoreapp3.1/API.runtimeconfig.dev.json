@@ -2,8 +2,7 @@
   "runtimeOptions": {
     "additionalProbingPaths": [
       "C:\\Users\\maxis\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\maxis\\.nuget\\packages",
-      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      "C:\\Users\\maxis\\.nuget\\packages"
     ]
   }
 }

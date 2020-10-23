@@ -1,21 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\maxis\\OneDrive\\Desktop\\13\\DW\\DW\\API\\API.csproj": {}
+    "D:\\DW\\API\\maxisdwapi\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\maxis\\OneDrive\\Desktop\\13\\DW\\DW\\API\\API.csproj": {
+    "D:\\DW\\API\\maxisdwapi\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\maxis\\OneDrive\\Desktop\\13\\DW\\DW\\API\\API.csproj",
+        "projectUniqueName": "D:\\DW\\API\\maxisdwapi\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\maxis\\OneDrive\\Desktop\\13\\DW\\DW\\API\\API.csproj",
+        "projectPath": "D:\\DW\\API\\maxisdwapi\\API\\API.csproj",
         "packagesPath": "C:\\Users\\maxis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\maxis\\OneDrive\\Desktop\\13\\DW\\DW\\API\\obj\\",
+        "outputPath": "D:\\DW\\API\\maxisdwapi\\API\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\maxis\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -41,6 +38,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.8, )"
@@ -78,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
