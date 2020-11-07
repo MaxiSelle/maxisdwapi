@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace API.Migrations
 {
-    [DbContext(typeof(ClothingItemContext))]
+    [DbContext(typeof(AppDBContext))]
     [Migration("20201022095017_Add-Size-Col")]
     partial class AddSizeCol
     {

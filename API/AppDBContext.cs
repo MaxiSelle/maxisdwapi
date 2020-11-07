@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace API
 {
-        public class ClothingItemContext : DbContext
+        public class AppDBContext : DbContext
         {
-            public ClothingItemContext(DbContextOptions<ClothingItemContext> options)
+            public AppDBContext(DbContextOptions<AppDBContext> options)
                 : base(options)
             {
             }
