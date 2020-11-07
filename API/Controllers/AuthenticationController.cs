@@ -10,16 +10,28 @@ namespace API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class Authentication : ControllerBase
+    public class AuthenticationController : ControllerBase
     {
 
 
+        public AuthenticationController()
+        {
+        }
         [HttpPost("Login")]
 
         public async Task<ActionResult<bool>> Login([FromBody] LoginAttempt lg)
         {
-            if (lg.password == "kek")
+
+            if (lg.Password == "kek")
                 return true;
+            return false;
+        }
+
+        [HttpPost("Create")]
+        public async Task<ActionResult<bool>> CreateUser([FromBody] LoginAttempt lg)
+        {
+
+
             return false;
         }
 
@@ -27,7 +39,8 @@ namespace API.Controllers
 
     public class LoginAttempt
     {
-        public string password { get; set; }
+        public string Password { get; set; }
+        public string UserName { get; set; }
     }
 
 }

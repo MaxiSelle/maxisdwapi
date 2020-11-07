@@ -15,9 +15,9 @@ namespace API.Controllers
     public class ClothingItemController : Controller
     {
 
-        private readonly ClothingItemContext _context;
+        private readonly AppDBContext _context;
 
-        public ClothingItemController(ClothingItemContext context)
+        public ClothingItemController(AppDBContext context)
         {
             _context = context;
         }

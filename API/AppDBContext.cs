@@ -1,5 +1,8 @@
 ﻿using API.Controllers;
+using API.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,10 +10,9 @@ using System.Threading.Tasks;
 
 namespace API
 {
-        public class ClothingItemContext : DbContext
+        public class AppDBContext : DbContext
         {
-            public ClothingItemContext(DbContextOptions<ClothingItemContext> options)
-                : base(options)
+            public AppDBContext(DbContextOptions<AppDBContext> options):base(options)
             {
             }
 
